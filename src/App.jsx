@@ -1,6 +1,8 @@
 import React from 'react';
 import Sidebar from "./Sidebar";
 import Header from "./Header";
+import Home from "./Home";
+import UpcomingTasks from './upcomingtasks';
 
 
 function App() {
@@ -12,6 +14,9 @@ function App() {
      <Sidebar/> 
      <div className="main-content">
      <Header/>
+     <Home/>
+     <UpcomingTasks/>
+     
      </div>
      </div>
     </>

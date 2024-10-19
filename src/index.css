@@ -74,3 +74,184 @@ margin: 20px 0;
 .settings-icon{
     margin-top: 10px;
 }
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* todays task*/
+  .todays-task-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .todays-task-card h4 {
+    margin: 0 0 15px 0;
+    font-weight: bold;
+  }
+  
+  .btn-schedule {
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-schedule:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+ /*  */
+ .home-part{
+    display: flex;
+ }
+
+ .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    flex: 1;
+  }
+  
+  .card h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .card .text-center {
+    text-align: center;
+  }
+
+  /*  */
+  .task-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex: 1; /* Make cards flexible */
+  }
+  
+  .task-card h5 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+  }
+  
+  .task-card p {
+    margin: 5px 0;
+  }
+  
+  .task-buttons {
+    margin-top: 10px;
+  }
+  
+  .task-buttons button {
+    margin-right: 5px;
+  }
+ 
+  .edit-btn {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+ .edit-btn:hover {
+    background-color: #0056b3; 
+  }
+  
+  .delete-btn {
+    background-color: red; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .project-member-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  
+ .upcoming-tasks-section {
+  margin-top: 20px;
+}
+
+.task-cards-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+/* UpcomingTasks.css */
+.upcoming-tasks-section {
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px;
+}
+
+.upcoming-tasks-section h4 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.task-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+/* TaskCard.css */
+.task-card h5 {
+  font-size: 1.25em; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/*  */
+/* TaskCard.css */
+
+
+.task-card h5 {
+  font-size: 1.5em; /* Increased font size */
+  line-height: 1.4; /* Line height for better readability */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.task-card-actions button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
