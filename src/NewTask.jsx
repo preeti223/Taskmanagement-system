@@ -3,7 +3,7 @@ import TaskCard from "./taskcard";
 
 
 
-const UpcomingTasks = () => {
+const NewTask = () => {
   const tasks = [
     {
       title: "Task Title",
@@ -44,4 +44,4 @@ const UpcomingTasks = () => {
   );
 };
 
-export default UpcomingTasks;
+export default NewTask;

@@ -2,15 +2,15 @@
 import React from 'react';
 
 
-const TeamMember = ({ role, name, experience, projects, email }) => {
+const ProjectMember = ({ role, name, experience, projects, email }) => {
   return (
     <div className="App">
          <h1>Project Name: {}</h1>
          <h2>Team Members</h2>
-
+         
          <div className='member-card'>
 
-      <div className="team-member-card">
+    <div className="team-member-card">
       <div className="team-member-image">
         <img src="https://via.placeholder.com/150" alt="Profile" />
       </div>
@@ -40,4 +40,4 @@ const TeamMember = ({ role, name, experience, projects, email }) => {
   );
 };
 
-export default TeamMember;
+export default ProjectMember;

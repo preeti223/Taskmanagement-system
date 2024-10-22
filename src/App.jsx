@@ -1,10 +1,14 @@
+// App.js
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Home from "./Home";
-import UpcomingTasks from './upcomingtasks';
-import TeamMember from './TeamMember';
-
+import NewTask from './NewTask';
+import ProjectMember from './ProjectMember'; 
+import Calendar from './Calendar';
+import AddTask from './AddTask';
+import Profile from './Profile';
 function App() {
   const teamMembers = [
     {
@@ -31,18 +35,26 @@ function App() {
   ];
 
   return (
-    <>
-    <div className="app-container">
-     <Sidebar/> 
-     <div className="main-content">
-     <Header/>
-     <Home/>
-     <UpcomingTasks/>
-     <TeamMember/>
-     </div>
-     </div>
-    </>
+    <Router>
+      <div className="app-container">
+        <Sidebar /> 
+        <div className="main-content">
+          <Header /> 
+          
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/NewTask" element={<NewTask />} />
+            <Route path="/ProjectMember" element={<ProjectMember teamMembers={teamMembers} />} />
+            <Route path="/Calendar" element={<Calendar />} /> 
+            <Route path="/AddTask" element={<AddTask/>} />
+            <Route path="/Profile" element={<Profile/>} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
-export default App
+export default App;
+
+
