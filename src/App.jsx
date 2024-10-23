@@ -1,4 +1,4 @@
-// App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from "./Sidebar";
@@ -9,14 +9,16 @@ import ProjectMember from './ProjectMember';
 import Calendar from './Calendar';
 import AddTask from './AddTask';
 import Profile from './Profile';
+
+
 function App() {
   const teamMembers = [
     {
       role: 'Team Manager',
-      name: 'John Doe',
+      name: 'Preeti',
       experience: '10',
       projects: 'Project A, Project B',
-      email: 'john.doe@example.com',
+      email: 'Preeti@example.com',
     },
     {
       role: 'Developer',
@@ -48,10 +50,14 @@ function App() {
             <Route path="/Calendar" element={<Calendar />} /> 
             <Route path="/AddTask" element={<AddTask/>} />
             <Route path="/Profile" element={<Profile/>} />
+           
+         
+
           </Routes>
         </div>
       </div>
     </Router>
+    
   );
 }
 

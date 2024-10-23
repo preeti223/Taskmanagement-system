@@ -95,7 +95,7 @@ margin: 20px 0;
   }
   
   .btn-schedule {
-    background-color: #007bff; /* Bootstrap Primary Color */
+    background-color: #007bff; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -105,7 +105,7 @@ margin: 20px 0;
   }
   
   .btn-schedule:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #0056b3; 
   }
   
  /*  */
@@ -144,7 +144,7 @@ margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    flex: 1; /* Make cards flexible */
+    flex: 1; 
   }
   
   .task-card h5 {

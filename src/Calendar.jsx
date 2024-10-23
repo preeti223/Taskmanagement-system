@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Calendar as BigCalendar, momentLocalizer } from 'react-big-calendar'; // Renamed import
+import { Calendar as BigCalendar, momentLocalizer } from 'react-big-calendar'; 
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
-// Configure moment as the date library
+
 const localizer = momentLocalizer(moment);
 
-function Calendar() { // Renamed component to avoid conflict
-  // Example task data
+function Calendar() { 
+  
   const [tasks, setTasks] = useState([
     {
       id: 1,
@@ -32,7 +32,7 @@ function Calendar() { // Renamed component to avoid conflict
     },
   ]);
 
-  // Define how each task should be displayed in the calendar
+
   const eventStyleGetter = (event) => {
     let backgroundColor = event.status === 'Completed' ? '#28a745' : event.status === 'In Progress' ? '#ffc107' : '#dc3545';
     return {

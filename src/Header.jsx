@@ -11,7 +11,7 @@ function Header(){
 
             <div>
               <h1>Good Morning, Team!</h1>
-              <p>It's Friday, 4 October 2024</p>
+              <p>It's Tuesday, 22 October 2024</p>
             </div>
 
            
